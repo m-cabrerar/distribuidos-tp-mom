@@ -1,6 +1,3 @@
-import pika
-import random
-import string
 from .middleware import MessageMiddlewareQueue, MessageMiddlewareExchange, MessageMiddlewareMessageError, MessageMiddlewareDisconnectedError, MessageMiddlewareCloseError
 
 class MessageMiddlewareQueueRabbitMQ(MessageMiddlewareQueue):
